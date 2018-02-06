@@ -1,0 +1,103 @@
+.index.subjects .items .item .group_subject li{
+  width: auto;
+  margin-left: 12px;
+  position: relative;
+}
+.index.subjects .items .item .group_subject li::after{
+  position: absolute;
+  left: -6px;
+}
+.title_subject{
+  margin-bottom:20px;
+}
+.title_subject:last-of-type{
+  margin-bottom: 0px;
+}
+#forum .forum-Class-- .Right_Width .user{
+  height: 100%;
+}
+.forum-Class-- .Right_Width .main-carousel_right .carousel-cell{
+  height: 200px;
+}
+#forum .forum-Class-- .title{
+  width: auto;
+}
+.forum-Class-- .Right_Width .main-carousel_right .user .title{
+  margin-right: auto;
+}
+#forum .forum-Class-- .Right_Width .user{
+  text-align: center;
+}
+.Last--subject.last-content .items .item:last-of-type{
+  margin-bottom: 22px
+}
+.Last--subject.last-content .items .item .post_item .descriptions .description{
+  word-wrap: break-word;
+}
+.coursor{
+  cursor: pointer;
+}
+.editor--textarea{
+  width: 100%;
+  font: 18px "IRANSansWeb";
+  color: #4c4c4c;
+  padding-right: 8px;
+  padding-top:8px;
+  height: 100px;
+}
+.datepiker{
+  display: none;
+}
+#comment .Last--subject.last-content .items .item .post_item .user .avatar{
+  text-align: center;
+  padding-top: 8px;
+}
+.pagination{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.commentBox{
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pagination li{
+  display: flex;
+  font: 14px "IRANSansWeb_Bold";
+  color: #979797;
+  text-align: center;
+  border: solid 1px #d5d5d5;
+  background: transparent;
+  border-radius: 1px;
+  transition: all 110ms ease;
+  cursor: pointer;
+}
+.pagination li a{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  transition: all 120ms ease-in;
+}
+.pagination li.active{
+  background: #2e6da4;
+  transition: all 120ms ease-in;
+  border-color: #2e6da4;
+  color: #fff;
+}
+#list-post_send.Last--subject .items{
+  display: block ;
+}
+.border-warning .notification-icon{
+  fill:#eda927 !important;
+}
+.border-warning .title{
+  color:#eda927 !important;
+}
+.border-warning .icon_close_danger path{
+  fill:#eda927 !important;
+}
